@@ -1,0 +1,25 @@
+{
+    "name": "testrepo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx run ./node_modules/.bin/cypress run",
+        "open": "npx run ./node_modules/.bin/cypress open"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chrisnuval/testrepo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chrisnuval/testrepo/issues"
+    },
+    "homepage": "https://github.com/chrisnuval/testrepo#readme",
+    "dependencies": {
+        "cypress": "^9.7.0",
+        "eslint": "^8.27.0",
+        "prettier": "^2.7.1"
+    }
+}
